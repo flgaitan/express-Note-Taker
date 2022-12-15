@@ -1,5 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+const fs = require('fs');
+
+//notesDb = require("../db/db.json");
+
+
 
 const createDb = (body, notesArr) => {
     const addNote = body;
