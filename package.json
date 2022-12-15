@@ -1,0 +1,25 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^2.0.20",
+    "uuid": "8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flgaitan/express-Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flgaitan/express-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/flgaitan/express-Note-Taker#readme"
+}
