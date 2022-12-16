@@ -1,28 +1,28 @@
 const fs = require('fs');
 const path = require('path');
-const fs = require('fs');
+//nconst fs = require('fs');
 
 //notesDb = require("../db/db.json");
 
 
 
-const createDb = (body, notesArr) => {
+const createDb = (body, notesDbArr) => {
     const addNote = body;
-    notesArr.push(addNote);
+    notesDbArr.push(addNote);
 
     fs.writeFileSync (path.join(__dirname, '../db/db.json'),
-    JSON.stringify({notesDb: notesArr}, null, 2));
+    JSON.stringify({notesDb: notesDbArr}, null, 2));
     return addNote;
 }
 
-const outputDb = (id, notesArr) => {
+const outputDb = (id, notesDbArr) => {
     const discard = id;
-    for (let i =0; i < notesArr.length; i++) {
-        if (discard === notesArr[i].id){
-            notesArr.splice(i, 1);
+    for (let i =0; i < notesDbArr.length; i++) {
+        if (discard === notesDbArr[i].id){
+            notesDbArr.splice(i, 1);
 
             fs.writeFileSync(path.join(__dirname, '../db/db.json'), 
-            JSON.stringify({db: notesArr}, null, 2), err => {
+            JSON.stringify({notesDb: notesDbArr}, null, 2), err => {
                 if (err) {
                     throw err;
                 }

@@ -2,25 +2,28 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The motivation for this project was to be able to interact with an app that was given to us with previous code. The way to interact with this application is through express server. So to be able to make a query and input and send requests back and forth to show that functionality.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project was built to parctice making queries from a back end perspective, so to really understand when we are calling and API what we are doing is sending a request , and waiting for a response back in the form of JSON data. So understanding that part of the process I think is truly the key to this challenge.
 
-## Table of Contents (Optional)
+This project solved all the problems it creates! The main problem is getting a query through the server, many mistakes are likely to happen whether it is with syntax used or just trying to tap into the right databse to get the response we want. I think that it was a good challenge to play around with and see for ourselves how these queries behave with information, but on a smaller scale.
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+I learned that when making a query, you are talking to the code and telling it what to ask for (like everything we do). With a query that has previous data, you know you are successful at making the right call when you receive the response you were hoping for. So that being said, this was challenging for me because I was making mistakes with how I wanted to make the query request. Once that part was clarified I feel like the rest of the behaviors made so much more sense.
 
+## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Clone the repository to your computer.
+2. Once clone, review your files and clarify what you're given and what you are missing, from there obtain any additional packages required through 'npm i $express' if it's not in the dependencies pf your package.json file.
+3. Add .gitignore file for node_modules and DS_Store
+4. Make sure Insomnia is installed on your working device.
+5. Work with your code to set routes and view on the port through Insomnia to see if your queries are going through and if you're receiving information successfully.
+6. Set your port to listen to the right host.
+7. Once you have a successful working code, deploy on Heroku (make sure to have Heroku installed and linked with GitHub).
 
 ## Usage
 
@@ -32,11 +35,6 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
@@ -54,12 +52,14 @@ Badges aren't necessary, but they demonstrate street cred. Badges let other deve
 
 ## Features
 
-If your project has a lot of features, list them here.
+- HEROKU (deployment)
+- Express
+- Insomnia
+- Node
+
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+You can run the localport on insomnia and test a query request or send information through and see if it is receiving and uodating successfully. Other than that, the application's functionality should be ale to run once deployed in Heroku.
