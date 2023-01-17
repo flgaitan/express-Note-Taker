@@ -26,16 +26,21 @@ I learned that when making a query, you are talking to the code and telling it w
 7. Once you have a successful working code, deploy on Heroku (make sure to have Heroku installed and linked with GitHub).
 
 ## Usage
+HEROKU APP DEPLOY: 
+https://express-note-tkr.herokuapp.com/
 
-Provide instructions and examples for use. Include screenshots as needed.
+GITHUB REPO LINK:
+https://github.com/flgaitan/express-Note-Taker
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
+App is deployed to Heroku.
+Follow steps for installation, once completed you should have a cloned repo, all files, and a working command line.
+Start the app by either running the command node server.js or nodemon .
 
 ![alt text](assets/new%20note%20added.png)
 ![alt text](assets/new%20note%20deleted.png)
 
 ## Credits
+https://www.freecodecamp.org/news/how-to-deploy-an-application-to-heroku/
 
 
 ## License
