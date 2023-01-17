@@ -1,12 +1,1 @@
-{
-  "notesDb": [
-    {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "hi ",
-      "text": "eggs \nmilk"
-    }
-  ]
-}
+[{"title":"Test Title","text":"Test text"},{"title":"hi ","text":"eggs \nmilk"},{"title":"Hello","text":"flowers\nsun\nbeach\niced coffee","id":"8a18"}]

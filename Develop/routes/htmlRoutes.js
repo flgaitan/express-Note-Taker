@@ -11,8 +11,7 @@ const router = require('express').Router();
   
   router.get('*', (req, res) => {
   //   console.info(`${req.method} request received for notes`);
-    res.sendFile(path.join(__dirname, '../public/index.html'));
-  }); 
+  });
 
 router.get("/", (req, res) => {
     //res.status(200).send(db);
